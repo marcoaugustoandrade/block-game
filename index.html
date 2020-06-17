@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="colors">
+        <button onclick="newGame()" class="btn-new">Novo</button>
+        <button class="btn-color" style="background-color: white;" onclick="setCurrentColor('white')"></button>
+        <button class="btn-color" style="background-color: yellow;" onclick="setCurrentColor('yellow')"></button>
+        <button class="btn-color" style="background-color: blue;" onclick="setCurrentColor('blue')"></button>
+        <button class="btn-color" style="background-color: green;" onclick="setCurrentColor('green')"></button>
+        <button class="btn-color" style="background-color: red;" onclick="setCurrentColor('red')"></button>
+    </div>
+    <div class="container">
+        <div>
+            <svg id="board1" width="400" height="400"></svg>
+        </div>
+        <div>
+            <svg id="board2" width="400" height="400"></svg>
+        </div>
+    </div>
+    <script src="game.js"></script>
+</body>
+</html>
