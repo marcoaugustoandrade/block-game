@@ -22,7 +22,7 @@ function clearBoard(board){
 
 function verifyDraw(){
     if (myDraw.every((value, index) => value === computerDraw[index])){
-        alert('Ganhou!')
+        alert('acertou miseravi!')
     }
 }
 
@@ -87,7 +87,7 @@ function loadDraw(file){
         )
 }
 
-let files = ['cat', 'frog', 'duck', 'lula', 'airplane', 'farol', 'boat']
+let files = ['cat', 'frog', 'duck', 'lula', 'airplane', 'farol', 'boat', 'house']
 function newGame(){
     
     let randomFile = files[Math.floor(Math.random() * files.length)]
