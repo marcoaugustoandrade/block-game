@@ -87,7 +87,7 @@ function loadDraw(file){
         )
 }
 
-let files = ['cat', 'frog', 'duck', 'lula', 'airplane', 'farol', 'boat', 'house']
+let files = ['cat', 'frog', 'duck', 'lula', 'airplane', 'farol', 'boat', 'house', 'cat2', 'ghost', 'ludo', 'paisage', 'rabbit', 'tree', 'turtle']
 function newGame(){
     
     let randomFile = files[Math.floor(Math.random() * files.length)]
